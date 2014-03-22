@@ -4631,7 +4631,7 @@ a.facebook img:hover {
 #main-content {
   background-color: white; }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 819px) {
   #main-content {
     background-color: white;
     margin: 0 auto;
@@ -4640,6 +4640,9 @@ a.facebook img:hover {
 /* sidebar, visible only for tablet and desktop */
 .sidebar {
   min-width: 250px; }
+  .sidebar img {
+    background-color: lightgrey;
+    margin-bottom: 2em; }
 
 .banner {
   display: inline; }
@@ -4653,7 +4656,7 @@ dl.tabs {
   max-width: 100%; }
 
 dl.tabs dd {
-  width: 25%;
+  width: 33.33%;
   text-align: center;
   border-right: 2px solid #1c1c1c; }
   dl.tabs dd a {
@@ -4692,32 +4695,66 @@ ul.account-list > li .photo {
   background-size: 100% 100%, auto; }
 ul.account-list > li .cta {
   width: 100%; }
-  ul.account-list > li .cta ul.button-group {
+  ul.account-list > li .cta ul.button-group li {
     width: 100%; }
-    ul.account-list > li .cta ul.button-group li {
+    ul.account-list > li .cta ul.button-group li.two {
       width: 50%; }
-      ul.account-list > li .cta ul.button-group li a {
-        margin: auto 0;
-        font-size: 90%;
-        text-align: left;
-        font-weight: 300; }
     ul.account-list > li .cta ul.button-group li.three {
       width: 33.3%; }
-      ul.account-list > li .cta ul.button-group li.three a {
-        font-size: 70%; }
   ul.account-list > li .cta .action-vote {
     padding-left: 10px; }
   ul.account-list > li .cta .button {
     padding: 20px 10%; }
 
+/*
+							margin: auto 0;
+							font-size: 90%;
+							text-align: left;
+							font-weight: 300;
+
+
+*/
 .button {
-  width: 100%;
   height: auto; }
 
 .button-share {
   background: #235999; }
   .button-share:hover {
     background: #143454; }
+
+ul.button-group li {
+  min-height: 2em;
+  padding: 3% 1em; }
+  ul.button-group li a {
+    color: white !important; }
+
+ul.button-group.two li.score {
+  width: 50%;
+  background-color: #E52557;
+  color: white; }
+  ul.button-group.two li.score:hover {
+    background-color: #c01744; }
+
+ul.button-group.two li.share {
+  width: 50%;
+  background-color: #235A9A;
+  color: white; }
+  ul.button-group.two li.share:hover {
+    background-color: #1a4270; }
+
+span.score {
+  padding-left: 0.5em;
+  padding-top: 0.2em;
+  margin-top: 0.2em;
+  font-family: "Times New Roman", Georgia, Serif;
+  font-size: 200%; }
+
+span.score-action {
+  padding-left: 0.5em;
+  padding-top: 0.2em;
+  margin-top: 0.2em;
+  font-family: 'ralewaylight';
+  font-size: 150%; }
 
 img.profile-pict {
   position: relative;
