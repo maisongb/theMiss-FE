@@ -4669,62 +4669,38 @@ p.title {
 .tabs-content ul {
   margin-left: 0px; }
 
-ul.account-list > li .title {
+ul.photo li .title {
   background-color: white;
-  padding: 1em 0 0.5em;
-  margin-top: 2px; }
-ul.account-list > li .title .name {
-  padding-left: 6px; }
-ul.account-list > li .title .position {
-  margin-right: 6px;
-  padding-top: 12px; }
-ul.account-list > li .title img {
-  border-radius: 50%;
-  margin-left: 6px; }
-ul.account-list > li .photo {
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 100% 100%, auto; }
-ul.account-list > li .orbit-bullets {
-  margin: 100px 30px;
-  overflow: hidden;
-  position: relative;
-  top: 0px !important;
-  float: none;
-  text-align: center;
-  display: none; }
-ul.account-list > li .orbit-bullets li {
-  display: inline-block;
-  width: 0.5625rem;
-  height: 0.5625rem;
-  background: #ccc;
-  float: none;
-  top: 0px;
-  margin-right: 60px;
-  -webkit-border-radius: 1000px;
-  border-radius: 1000px; }
-ul.account-list > li .cta {
+  padding: 1em 0 0.5em; }
+  ul.photo li .title .name {
+    padding-left: 6px; }
+  ul.photo li .title .score {
+    font-family: 'ralewaylight';
+    font-size: 4em;
+    line-height: 0.5em;
+    display: inline;
+    margin-right: 1rem; }
+  ul.photo li .title .definition {
+    font-size: 1.45rem;
+    vertical-align: 40%;
+    margin-right: 1rem; }
+  ul.photo li .title img {
+    border-radius: 50%;
+    margin-left: 6px; }
+
+.cta {
   width: 100%; }
-  ul.account-list > li .cta ul.button-group li {
+  .cta ul.button-group li {
     width: 100%; }
-    ul.account-list > li .cta ul.button-group li.two {
+    .cta ul.button-group li.two {
       width: 50%; }
-    ul.account-list > li .cta ul.button-group li.three {
+    .cta ul.button-group li.three {
       width: 33.3%; }
-  ul.account-list > li .cta .action-vote {
+  .cta .action-vote {
     padding-left: 10px; }
-  ul.account-list > li .cta .button {
+  .cta .button {
     padding: 20px 10%; }
 
-/*
-
-							margin: auto 0;
-							font-size: 90%;
-							text-align: left;
-							font-weight: 300;
-
-
-*/
 .button {
   height: auto; }
 
