@@ -4644,6 +4644,15 @@ a.facebook img:hover {
 
 /* end sidebar, visible only for tablet and desktop */
 /* main tab: ultime foto, miss del mese, le vincitrici */
+[data-magellan-expedition] {
+  z-index: 50;
+  min-width: 524px;
+  padding: 0px;
+  padding-top: 30px; }
+  @media screen and (max-width: 819px) {
+    [data-magellan-expedition] {
+      width: 100%; } }
+
 dl.tabs {
   max-width: 100%; }
 
@@ -4689,14 +4698,14 @@ ul.photo li .title {
     border-radius: 50%;
     margin-left: 6px; }
 
-.winners {
+.content.winners {
   text-align: center;
   padding-top: 2rem; }
-  .winners img {
+  .content.winners img {
     border-bottom: 1px solid black;
     width: 60%;
     margin: 0 auto; }
-  .winners h4 {
+  .content.winners h4 {
     padding-top: 1rem; }
 
 .cta {
