@@ -2382,14 +2382,6 @@ label.error {
     height: 6px;
     width: 100px;
     z-index: 10; }
-    .orbit-container .orbit-timer .orbit-progress {
-      height: 3px;
-      background-color: rgba(255, 255, 255, 0.3);
-      display: block;
-      width: 0%;
-      position: relative;
-      right: 20px;
-      top: 5px; }
     .orbit-container .orbit-timer > span {
       display: none;
       position: absolute;
@@ -4693,6 +4685,24 @@ ul.account-list > li .photo {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100% 100%, auto; }
+ul.account-list > li .orbit-bullets {
+  margin: 100px 30px;
+  overflow: hidden;
+  position: relative;
+  top: 0px !important;
+  float: none;
+  text-align: center;
+  display: none; }
+ul.account-list > li .orbit-bullets li {
+  display: inline-block;
+  width: 0.5625rem;
+  height: 0.5625rem;
+  background: #ccc;
+  float: none;
+  top: 0px;
+  margin-right: 60px;
+  -webkit-border-radius: 1000px;
+  border-radius: 1000px; }
 ul.account-list > li .cta {
   width: 100%; }
   ul.account-list > li .cta ul.button-group li {
@@ -4707,6 +4717,7 @@ ul.account-list > li .cta {
     padding: 20px 10%; }
 
 /*
+
 							margin: auto 0;
 							font-size: 90%;
 							text-align: left;
@@ -4748,13 +4759,19 @@ span.score {
   margin-top: 0.2em;
   font-family: "Times New Roman", Georgia, Serif;
   font-size: 200%; }
+  @media screen and (max-width: 530px) {
+    span.score {
+      font-size: 150%; } }
 
 span.score-action {
   padding-left: 0.5em;
   padding-top: 0.2em;
   margin-top: 0.2em;
   font-family: 'ralewaylight';
-  font-size: 150%; }
+  font-size: 160%; }
+  @media screen and (max-width: 530px) {
+    span.score-action {
+      font-size: 100%; } }
 
 img.profile-pict {
   position: relative;
