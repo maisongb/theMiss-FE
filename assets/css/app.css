@@ -4689,6 +4689,16 @@ ul.photo li .title {
     border-radius: 50%;
     margin-left: 6px; }
 
+.winners {
+  text-align: center;
+  padding-top: 2rem; }
+  .winners img {
+    border-bottom: 1px solid black;
+    width: 60%;
+    margin: 0 auto; }
+  .winners h4 {
+    padding-top: 1rem; }
+
 .cta {
   width: 100%; }
   .cta ul.button-group li {
