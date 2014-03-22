@@ -3059,15 +3059,15 @@ table {
     float: left; }
     .tabs dd > a {
       display: block;
-      background: #494949;
-      color: #e3e3e3;
+      background: #E52557;
+      color: #3fe8bb;
       padding: 1rem 2rem;
       font-family: "ralewaylight", sans-serif;
       font-size: 1rem; }
       .tabs dd > a:hover {
-        background: #3a3a3a; }
+        background: #be1743; }
     .tabs dd.active a {
-      background: #1c1c1c; }
+      background: #c01744; }
   .tabs.radius dd:first-child a {
     -moz-border-radius-bottomleft: 3px;
     -moz-border-radius-topleft: 3px;
@@ -4650,9 +4650,10 @@ dl.tabs {
 dl.tabs dd {
   width: 33.33%;
   text-align: center;
-  border-right: 2px solid #1c1c1c; }
+  border-right: 2px solid #c01744; }
   dl.tabs dd a {
-    padding: 1rem 1rem; }
+    padding: 1rem 1rem;
+    color: white; }
 
 dl.tabs.fotofan dd {
   width: 50%;
