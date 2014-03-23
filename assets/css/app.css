@@ -4892,7 +4892,7 @@ sup {
     float: center;
     margin-top: 2rem;
     display: inline-block;
-    width: 290px;
+    width: 300px;
     height: 52px;
     background: url('../images/login-facebook-big.png') center -2px;
     border-radius: 4px; }
@@ -4902,8 +4902,9 @@ sup {
     margin-top: 1rem;
     display: inline-block;
     width: 300px;
-    height: 60px;
-    background: url('../images/login-instagram-big.png') 0px -2px; }
+    height: 55px;
+    background: url('../images/login-instagram-big.png') 0px 0px;
+    border-radius: 4px; }
   .login-page .login-instagram:hover {
     background-position: bottom; }
   .login-page .mail a.login-mail p {
