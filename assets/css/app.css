@@ -4919,3 +4919,5 @@ sup {
     text-align: center; }
   .login-page button.login {
     width: 100%; }
+  .login-page label {
+    color: white; }
