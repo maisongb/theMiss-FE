@@ -4544,8 +4544,7 @@ th.hide-for-touch {
   font-style: normal; }
 
 body {
-  background-color: #FFFCF3;
-  min-height: 2000px; }
+  background-color: #FFFCF3; }
 
 /* top bar nav */
 .super-nav {
@@ -4843,37 +4842,6 @@ span.score-action {
   .description {
     top: 0.5em; } }
 
-/*
-
-.start {
-
-	width: 100%;
-	height: 100px;
-	background-color: grey;
-}
-
-
-.stats-month {
-	
-	background-color: darkgrey;
-	width: 50%;
-
-}
-
-.stats-year {
-	
-	background-color: lightgrey;
-	width: 50%;
-
-}
-
-
-.stats {
-
-	text-align: center;
-}
-
-*/
 table.stats {
   width: 100%;
   text-align: center;
@@ -4903,3 +4871,46 @@ table.stats tr:last-child td {
 
 sup {
   font-size: 0.5em; }
+
+/**** LOGIN PAGE  ****/
+.login-page {
+  background: url("../images/background.jpg") no-repeat;
+  height: 100%;
+  padding-top: 2rem;
+  text-align: center;
+  float: center; }
+  .login-page h6 {
+    color: white;
+    padding-top: 0px;
+    margin-top: -10px; }
+  .login-page img {
+    padding: 2rem 0; }
+  .login-page .logo-login {
+    text-align: center;
+    float: center; }
+  .login-page .login-facebook {
+    float: center;
+    margin-top: 2rem;
+    display: inline-block;
+    width: 290px;
+    height: 52px;
+    background: url('../images/login-facebook-big.png') center -2px;
+    border-radius: 4px; }
+  .login-page .login-facebook:hover {
+    background-position: bottom; }
+  .login-page .login-instagram {
+    margin-top: 1rem;
+    display: inline-block;
+    width: 300px;
+    height: 60px;
+    background: url('../images/login-instagram-big.png') 0px -2px; }
+  .login-page .login-instagram:hover {
+    background-position: bottom; }
+  .login-page .mail a.login-mail p {
+    text-align: center !important;
+    color: white;
+    margin-top: 3rem;
+    display: inline-block;
+    opacity: 0.6; }
+    .login-page .mail a.login-mail p:hover {
+      opacity: 1; }
