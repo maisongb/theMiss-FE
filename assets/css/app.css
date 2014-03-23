@@ -4921,3 +4921,13 @@ sup {
     width: 100%; }
   .login-page label {
     color: white; }
+  .login-page label[for=checkbox1] {
+    text-align: left !important;
+    line-height: 1em;
+    float: left;
+    padding: 0px;
+    margin-bottom: 1.5em;
+    opacity: 0.6;
+    font-size: 0.7em; }
+  .login-page input[type=checkbox] {
+    margin: 2px 0px; }
