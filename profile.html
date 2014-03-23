@@ -174,48 +174,55 @@
 <!-- begin main content -->
 
 
-    <section class="main-section">
+   
 
 
 
     <div class="row"> <!-- cover photo -->
               <img src="http://placehold.it/1000x350">
     </div>
-    <div class="row profile-begin"> <!-- profile photo -->
-      <div class="small-4 medium-3 large-3 columns">
-              <img class="profile-pict" src="http://placehold.it/140x140">
-      </div>
-      <div class="small-5 medium-6 large-6 columns name">
-              <h4>Nome cognome</h4><h4 class="subheader">Città</h5>
-      </div>
 
-      <div class="small-2 medium-3 large-3 columns name">
-             <a href="#" class="button follow">SEGUI</a>
-      </div>
-
-   
-  
-      <div class="row"> <!-- profile photo -->
-          <div class="small-12 medium-8 large-8 large-push-12 columns description">
-              <p>Standing desk, while App Store, for example I have the cutest dog in the world, what I have tried them all all in all Xcode, but also braaaaaaand.</p>
+    <div class="row profile"> <!-- profile -->
+          <div class="small-4 medium-3 large-3  columns">
+                  <img class="profile-pict" src="http://placehold.it/140x140">
+          </div>
+          <div class="small-5 medium-6 large-5 large-offset-1 columns name">
+                  <h4>Nome cognome</h4><h4 class="subheader">Città</h5>
           </div>
 
-      </div>
+          <div class="small-3 medium-3 large-3 columns name">
+                 <a href="#" class="button follow">SEGUI</a>
+          </div>
+
+      
+          <div class="row"> <!-- profile photo -->
+              <div class="small-12 medium-8 large-7 large-offset-1 columns description">
+                  <p>Standing desk, while App Store, for example I have the cutest dog in the world, what I have tried them all all in all Xcode, but also braaaaaaand.</p>
+              </div>
+
+          </div>
   
- </div>
+    </div> <!-- end profile -->
   
 
+     <section class="main-section"> <!-- begin content page -->
 
 
+  
 
-        <div class="row"> <!-- begin content page -->
+        <div class="row" id="main-content">  
 
-                <div class="large-4 columns hide-for-medium-down sidebar "> <!-- sidebar --> 
-                      
-                        <div class="banner" name="arrival" ><img src="http://imgsrc.me/250x250/lightgray/d3d3d3/banner?showDimensions=0&" ></div>
-                        <div class="social-fb"><img src="http://imgsrc.me/250x250/lightgray/d3d3d3/facebook social box?showDimensions=0&"></div>   
+                <div class="large-4 columns hide-for-small-only hide-for-medium-only"> <!-- sidebar -->
+                  
+                      <aside class="sidebar">
+                        
+                        <div class="premi"><img src="assets/images/sidebar-02.png"></div>
+                        <div class="tutorial"><img src="assets/images/sidebar-03.png"></div>
+                        <div class="photo-sampler"><img src="assets/images/sidebar-04.png"></div>
+                        <div class="social-fb"><img src="assets/images/sidebar-05.png"></div>
+                      </aside>
 
-                </div> 
+                </div>  
 
                 <div class="small-12 medium-12 large-8 columns" > <!-- main content, always visible -->
                     
@@ -244,41 +251,73 @@
                     <div class="tabs-content"> <!-- content inside the tab -->
                       <div class="content active" id="panel2-1">
 
-                            <ul class="account-list">
+                            <ul class="photo">
                               <li > <!-- photo container, full visualization -->
                                 
                                   
-                                    <div class="title"><a><href="#"><img src="http://placehold.it/50x50"><span class="name"><i class="fa-name"></i>Nome Cognome</span></a><span class="right position">1 voti</span></div>
-                                    <div class="photo"><img src="http://imgsrc.me/1000x1000/lightgray/f4f4f4/photo?showDimensions=0&"></div> <!-- photo -->
-                                      <div class="cta">
+                                     <div class="title">
+                                        <a href="profile.html"><img src="http://placehold.it/50x50">
+                                        <span class="name">Nome Cognome</span></a>
                                         
-                                          <ul class="button-group" data-equalizer>
-                                              <li><a href="#" class="button" data-equalizer-watch><span class="score">232 </span><i class="fa fa-thumbs-up"></i><span class="action-vote">VOTA</span></a></li>
-                                              <li><a href="#" class="button button-share" data-equalizer-watch><span class="share">23 <i class="fa fa-share"></i><span class="action-vote">CONDIVIDI</span></a></li>
-                                            </ul>
+                                        <span class="right">
 
-                                      </div>
+                                        <span class="score"></span><i class="fa fa-clock-o fa-2x definition"> 2 secondi fa'</i>
+
+                                        </span>
+
+                                    </div>
+                                    
+                                    <div class="photo"><img src="http://imgsrc.me/1000x1000/lightgray/f4f4f4/photo?showDimensions=0&"></div> <!-- photo -->
+                                      
+                                      <div class="cta">
+                                          
+        <ul class="button-group three" data-equalizer>
+            <a href="#"><li class="score" data-equalizer-watch><i class="fa fa-thumbs-o-up fa-2x"></i><span class="score">211</span><span class="score-action">VOTA</span></li></a>
+            <a href="#"><li class="comment" data-equalizer-watch><i class="fa fa-thumbs-o-up fa-2x"></i><span class="score">121</span><span class="score-action">COMMENTA</span></li></a>
+            <a href="#"><li class="share" data-equalizer-watch><i class="fa fa-share-square-o fa-2x"></i><span class="score">12</span><span class="score-action">CONDIVIDI</span></li></a>
+        </ul>
+
+
+
+                                        </div>
+
 
                               
                              </li>   <!-- end account-list -->
 
                              <li>
-                                    <div class="photo-container">  <!-- photo container, full visualization -->
                                     
-                                      <div class="title"><a><href="#"><img src="http://placehold.it/50x50"><span class="name"><i class="fa-name"></i>Nome Cognome</span></a><span class="right position">2 voti</span></div>
+                                    
+                                    <div class="title">
+                                        <a href="profile.html"><img src="http://placehold.it/50x50">
+                                        <span class="name">Nome Cognome</span></a>
+                                        
+                                        <span class="right">
+
+                                        <span class="score"></span><i class="fa fa-clock-o fa-2x definition"> 2 secondi fa'</i>
+
+                                        </span>
+
+                                    </div>
+
+
+
+
+
                                       <div class="photo"><img src="http://imgsrc.me/1000x1000/lightgray/f4f4f4/photo?showDimensions=0&"></div> <!-- photo -->
-                                        <div class="cta">
-                                          
-                                          <ul class="button-group" data-equalizer>
-                                              <li class="three"><a href="#" class="button" data-equalizer-watch><span class="score">232 </span><i class="fa fa-thumbs-up"></i><span class="action-vote">VOTA</span></a></li>
-                                              <li class="three"><a href="#" class="button button-share" data-equalizer-watch><span class="share">23 <i class="fa fa-comment"></i><span class="action-vote">COMMENTA</span></a></li>
-                                              <li class="three"><a href="#" class="button button-share" data-equalizer-watch><span class="share">23 <i class="fa fa-share"></i><span class="action-vote">CONDIVIDI</span></a></li>
-                                            </ul>
+      <div class="cta">
+        
+        <ul class="button-group three" data-equalizer>
+            <a href="#"><li class="score" data-equalizer-watch><i class="fa fa-thumbs-o-up fa-2x"></i><span class="score">211</span><span class="score-action">VOTA</span></li></a>
+            <a href="#"><li class="comment" data-equalizer-watch><i class="fa fa-thumbs-o-up fa-2x"></i><span class="score">121</span><span class="score-action">COMMENTA</span></li></a>
+            <a href="#"><li class="share" data-equalizer-watch><i class="fa fa-share-square-o fa-2x"></i><span class="score">12</span><span class="score-action">CONDIVIDI</span></li></a>
+        </ul>
 
 
-                                        </div>
+      </div>
 
-                                    </div> <!-- end photo container, full visualization -->
+
+                                     <!-- end photo container, full visualization -->
                             </li>   
 
 
@@ -290,117 +329,46 @@
                       </div>
                       <div class="content" id="panel2-2"> <!-- content inside the tab -->
 
-                      <ul class="account-list">
-                              <li><div class="title"><a><href="#"><img src="http://placehold.it/50x50"><span class="name"><i class="fa-name"></i>Nome Cognome</span></a><span class="right position">1 voti</span></div>
-                              </li>
-                              <li><div class="title"><a><href="#"><img src="http://placehold.it/50x50"><span class="name"><i class="fa-name"></i>Nome Cognome</span></a><span class="right position">1 voti</span></div>
-                              </li>
-                              <li><div class="title"><a><href="#"><img src="http://placehold.it/50x50"><span class="name"><i class="fa-name"></i>Nome Cognome</span></a><span class="right position">1 voti</span></div>
-                              </li>
-                              <li><div class="title"><a><href="#"><img src="http://placehold.it/50x50"><span class="name"><i class="fa-name"></i>Nome Cognome</span></a><span class="right position">1 voti</span></div>
-                              </li>
-                              <li><div class="title"><a><href="#"><img src="http://placehold.it/50x50"><span class="name"><i class="fa-name"></i>Nome Cognome</span></a><span class="right position">1 voti</span></div>
-                              </li>
-                              <li><div class="title"><a><href="#"><img src="http://placehold.it/50x50"><span class="name"><i class="fa-name"></i>Nome Cognome</span></a><span class="right position">1 voti</span></div>
-                              </li>
+                          <ul class="photo">
+                                  <li><div class="title"><a href="profile.html"><img src="http://placehold.it/50x50"><span class="name">Nome Cognome</span></a><span class="right"><span class="score"></span></span></div></li>
+                                  <li><div class="title"><a href="profile.html"><img src="http://placehold.it/50x50"><span class="name">Nome Cognome</span></a><span class="right"><span class="score"></span></span></div></li>
+                                  <li><div class="title"><a href="profile.html"><img src="http://placehold.it/50x50"><span class="name">Nome Cognome</span></a><span class="right"><span class="score"></span></span></div></li>
+                                  <li><div class="title"><a href="profile.html"><img src="http://placehold.it/50x50"><span class="name">Nome Cognome</span></a><span class="right"><span class="score"></span></span></div></li>
+                                  <li><div class="title"><a href="profile.html"><img src="http://placehold.it/50x50"><span class="name">Nome Cognome</span></a><span class="right"><span class="score"></span></span></div></li>
+                                  <li><div class="title"><a href="profile.html"><img src="http://placehold.it/50x50"><span class="name">Nome Cognome</span></a><span class="right"><span class="score"></span></span></div></li>
+                                  <li><div class="title"><a href="profile.html"><img src="http://placehold.it/50x50"><span class="name">Nome Cognome</span></a><span class="right"><span class="score"></span></span></div></li>
 
-                      </ul>
-                        <p>Second panel content goes here...</p><p><i class="fa fa-camera-retro fa-lg"></i> fa-camera-retro</p>
+                          </ul>
+
                       </div>
   
 
-
-
-
-
-
-
-
                           
-                    </div>
+                    </div> <!-- end content inside the tab -->
 
 
 
+                </div> <!-- end main content usually for pictures -->
 
 
 
 
 
+        </div>   <!-- end tab for female -->
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                </div> <!-- end main content -->
-
-
-
-
-
-        </div>   
-
-
-
-
-
-
-
-
-
-
- </div>
-
-
-
-
+ </div> <!-- end main content, always visible -->
 
 
                     
-    </section>
+    </section> <!-- end content page -->
 
-  <a class="exit-off-canvas"></a>
+  <a class="exit-off-canvas"></a> <!-- this allows to exit from off-canvas mode in mobile -->
 
-  </div>
-</div>
+  </div> <!-- end inner-wrap -->
+</div> <!-- end off-canvas-wrap docs-wrap -->
 
 
 

@@ -4749,6 +4749,30 @@ ul.button-group.two li.share {
   ul.button-group.two li.share:hover {
     background-color: #1a4270; }
 
+ul.button-group.three li.score {
+  width: 33.3%;
+  background-color: #E52557;
+  color: white;
+  font-size: 0.6em; }
+  ul.button-group.three li.score:hover {
+    background-color: #c01744; }
+
+ul.button-group.three li.comment {
+  width: 33.3%;
+  background-color: #4b4e5a;
+  color: white;
+  font-size: 0.6rem; }
+  ul.button-group.three li.comment:hover {
+    background-color: #34363e; }
+
+ul.button-group.three li.share {
+  width: 33.3%;
+  background-color: #235A9A;
+  color: white;
+  font-size: 0.6rem; }
+  ul.button-group.three li.share:hover {
+    background-color: #1a4270; }
+
 span.score {
   padding-left: 0.5em;
   padding-top: 0.2em;
@@ -4769,18 +4793,23 @@ span.score-action {
     span.score-action {
       font-size: 100%; } }
 
-img.profile-pict {
+.profile img {
   position: relative;
   top: -2.84722rem;
   z-index: 2;
+  left: 30%;
   border-radius: 50%;
   border: 1px solid white;
   width: 10.25rem;
-  margin: 0 1em; }
-  @media screen and (max-width: 769px) {
-    img.profile-pict {
-      margin-right: 2em;
-      max-width: 80%; } }
+  margin-right: 15%;
+  text-align: center; }
+  @media screen and (max-width: 819px) {
+    .profile img {
+      max-width: 80%;
+      left: 10%; } }
+
+.profile {
+  background-color: white; }
 
 .name {
   padding-top: 0.5em; }
@@ -4792,13 +4821,13 @@ img.profile-pict {
     text-transform: uppercase; }
 
 .button.follow {
-  margin-top: 0.5rem;
   background-color: transparent;
   border: 1px solid #E53041;
   color: #E53041;
-  padding: 0.5rem;
-  margin-top: 1rem;
+  padding: 0.3rem 0.5rem;
+  margin-top: 0.5rem;
   margin-right: 1rem;
+  border-radius: 4px;
   max-width: 150px;
   float: right; }
   .button.follow:hover {
@@ -4807,7 +4836,7 @@ img.profile-pict {
 
 @media screen and (max-width: 650px) {
   .description {
-    padding-top: 0.5em;
+    padding: 0.5em 1em;
     top: -2em; } }
 @media screen and (min-width: 651px) {
   .description {
