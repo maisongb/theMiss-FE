@@ -4842,18 +4842,63 @@ span.score-action {
   .description {
     top: 0.5em; } }
 
+/*
+
 .start {
-  width: 100%;
-  height: 100px;
-  background-color: grey; }
+
+	width: 100%;
+	height: 100px;
+	background-color: grey;
+}
+
 
 .stats-month {
-  background-color: darkgrey;
-  width: 50%; }
+	
+	background-color: darkgrey;
+	width: 50%;
+
+}
 
 .stats-year {
-  background-color: lightgrey;
-  width: 50%; }
+	
+	background-color: lightgrey;
+	width: 50%;
+
+}
+
 
 .stats {
-  text-align: center; }
+
+	text-align: center;
+}
+
+*/
+table.stats {
+  width: 100%;
+  text-align: center;
+  border: none;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif; }
+
+table.stats tr:first-child td {
+  font-size: 3em;
+  padding: 0.5em 0;
+  background: #4b4e5a;
+  color: white;
+  border: none !important; }
+
+table.stats tr:first-child td:nth-child(2) {
+  font-size: 2em; }
+
+table.stats tr:first-child td:nth-child(3) {
+  font-size: 2em; }
+
+table.stats tr:last-child td {
+  font-size: 1.5em;
+  padding: 0.5em 0;
+  color: #4b4e5a; }
+
+sup {
+  font-size: 0.5em; }
