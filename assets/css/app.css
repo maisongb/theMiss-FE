@@ -4651,6 +4651,7 @@ a.facebook img:hover {
   padding-top: 30px; }
   @media screen and (max-width: 819px) {
     [data-magellan-expedition] {
+      min-width: 100%;
       width: 100%; } }
 
 dl.tabs {
