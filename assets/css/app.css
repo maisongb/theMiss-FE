@@ -4877,7 +4877,7 @@ sup {
   height: 100%;
   text-align: center;
   float: center;
-  background: url("../images/background.jpg");
+  background: url("../images/background.jpg") !important;
   background-size: cover;
   z-index: 2; }
   .login-page h6 {
