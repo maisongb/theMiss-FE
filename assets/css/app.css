@@ -4875,6 +4875,7 @@ sup {
 /**** LOGIN PAGE  ****/
 .login-page {
   background: url("../images/background.jpg") no-repeat;
+  background-size: cover;
   height: 100%;
   text-align: center;
   float: center; }
