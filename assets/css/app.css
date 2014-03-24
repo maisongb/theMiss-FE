@@ -4874,11 +4874,11 @@ sup {
 
 /**** LOGIN PAGE  ****/
 .login-page {
-  background: url("../images/background.jpg") no-repeat;
-  background-size: cover;
   height: 100%;
   text-align: center;
-  float: center; }
+  float: center;
+  background: url("../images/background.jpg") no-repeat;
+  background-size: cover; }
   .login-page h6 {
     color: white;
     padding-top: 0px;
