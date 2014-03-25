@@ -4941,6 +4941,6 @@ background-size: cover;
     font-size: 0.7em; }
   .login-page input[type=checkbox] {
     margin: 2px 0px; }
-  @media only screen and (max-width: 47.063em) {
+  @media only screen and (max-width: 100em) {
     .login-page {
       height: auto; } }
