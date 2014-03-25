@@ -4874,10 +4874,18 @@ sup {
 .login-page {
   text-align: center;
   background: url("../images/background.jpg");
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  /*
+
+
+-moz-background-size: cover;
+
+-webkit-background-size: cover;
+
+-o-background-size: cover;
+
+background-size: cover;
+
+*/
   height: 100%; }
   .login-page h6 {
     color: white;
@@ -4933,3 +4941,6 @@ sup {
     font-size: 0.7em; }
   .login-page input[type=checkbox] {
     margin: 2px 0px; }
+  @media only screen and (max-width: 47.063em) {
+    .login-page {
+      height: auto; } }
