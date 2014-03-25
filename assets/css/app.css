@@ -4877,7 +4877,8 @@ sup {
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+  height: 100%; }
   .login-page h6 {
     color: white;
     padding-top: 0px;
