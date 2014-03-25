@@ -4878,8 +4878,7 @@ sup {
   text-align: center;
   background: url("../images/background.jpg") !important;
   height: 100% !important;
-  background-size: cover;
-  z-index: 2; }
+  min-height: 100% !important; }
   .login-page h6 {
     color: white;
     padding-top: 0px;
