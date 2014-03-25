@@ -4875,7 +4875,8 @@ sup {
   height: 100%;
   text-align: center;
   background: url("../images/background.jpg") #1e1e1e fixed;
-  background-size: cover; }
+  position: absolute;
+  height: 100%; }
   .login-page h6 {
     color: white;
     padding-top: 0px;
