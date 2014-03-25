@@ -4886,7 +4886,8 @@ sup {
 background-size: cover;
 
 */
-  height: 100%; }
+  height: 100%;
+  height: auto; }
   .login-page h6 {
     color: white;
     padding-top: 0px;
@@ -4941,6 +4942,6 @@ background-size: cover;
     font-size: 0.7em; }
   .login-page input[type=checkbox] {
     margin: 2px 0px; }
-  @media only screen and (max-width: 1em) {
+  @media only screen and (max-width: 40em) {
     .login-page {
       height: auto; } }
