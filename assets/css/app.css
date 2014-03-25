@@ -4874,7 +4874,8 @@ sup {
 .login-page {
   height: 100%;
   text-align: center;
-  background: url("../images/background.jpg") no-repeat #1e1e1e fixed center center; }
+  background: url("../images/background.jpg") no-repeat #1e1e1e center center fixed;
+  background-size: cover; }
   .login-page h6 {
     color: white;
     padding-top: 0px;
