@@ -4874,18 +4874,10 @@ sup {
 .login-page {
   text-align: center;
   background: url("../images/background.jpg");
-  /*
-
-
--moz-background-size: cover;
-
--webkit-background-size: cover;
-
--o-background-size: cover;
-
-background-size: cover;
-
-*/ }
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
   .login-page h6 {
     color: white;
     padding-top: 0px;
