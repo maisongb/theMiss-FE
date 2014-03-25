@@ -4876,7 +4876,6 @@ sup {
 .login-page {
   height: 100%;
   text-align: center;
-  float: center;
   background: url("../images/background.jpg") !important;
   height: 100% !important;
   background-size: cover;
