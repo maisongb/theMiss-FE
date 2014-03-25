@@ -4876,7 +4876,6 @@ sup {
   text-align: center;
   background: url("../images/background.jpg");
   position: absolute;
-  height: 100% !important;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
